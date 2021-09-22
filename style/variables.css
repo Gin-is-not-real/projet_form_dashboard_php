@@ -1,0 +1,40 @@
+html {
+    /* GENERAL */
+    --bgcolor-body: rgb(66,64,75);
+    --bgcolor-main: rgb(81, 76, 115, 69%);
+    --bgcolor-1: #42404bbd;
+    --radius: 10px;
+
+    /* INPUTS */
+    --bgbtn-green: rgb(49, 140, 49);
+    --bgbtn-green-hover: rgb(20, 104, 20);
+
+    --bgbtn-red: rgb(158, 60, 49);
+    --bgbtn-red-hover: rgb(141, 38, 26);
+
+    --bgbtn-neutral: rgb(102, 96, 93);
+    --bgbtn-neutral-hover: rgb(75, 69, 65);
+    
+    --bgbtn-blue: #333445;
+    --colorbtn-blue: rgba(199, 195, 195, 0.912);
+    --colorbtn-blue-hover: rgb(228, 223, 223);
+
+
+    /* POPUS */
+    --bg-popup: rgba(124, 39, 36, 0.926);
+    /* --bg-popup: #63a22fd2; */
+    --bg-popup-hover: rgb(124, 39, 36);
+
+    /* TABLES */
+    --bgline-1: rgb(179, 174, 174);
+    --bgline-2: rgb(169, 161, 161);
+    --bghead: rgb(104, 98, 98);
+    --color: rgba(0, 0, 0, 0.809);
+
+    /* BORDER MARGIN */
+    --border-dev: 1px solid black;
+    /* --border-dev: none; */
+
+    --margin-top-elts: 5%;
+    --margin-header: 0 0 10% 0;
+}

@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--bgline-1);
+}
+
+th {
+    padding: 1% 0;
+    background-color: var(--bghead);
+}
+tr {
+    border: none;
+    margin: 0 2%;
+}
+td {
+    margin: 2% 0;
+}
+#td-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#td-actions form {
+    margin: 0;
+}
+
+.color1, .color1 input:not(.green, .red, .neutral), .color1 select {
+    background-color: var(--bgline-1);
+}
+.color2, .color2 input:not(.green, .red, .neutral), .color2 select {
+    background-color: var(--bgline-2);
+}
+

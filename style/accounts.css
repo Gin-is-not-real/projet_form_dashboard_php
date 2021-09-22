@@ -1,0 +1,71 @@
+#main-accounts {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-flow: row wrap;
+    display: none;
+}
+
+.accounts {
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #82839d95;
+
+    border-radius: var(--radius);
+    max-width: 330px;
+    margin: 2% auto;
+
+    /* visibility: hidden; */
+    display: none;
+}
+
+.form-accounts header {
+    margin-left: 5%;
+    color: var(--color);
+}
+.form-accounts table {
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+.form-accounts div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.table-form-registration {
+    max-width: 330px;
+    background-color: var(--bgline-1);
+    margin-bottom: 2%;
+}
+
+.form_textfield {
+    box-sizing: border-box;
+    width: 60%;
+    margin: 5%;
+}
+
+/* FOR ACCOUNTS */
+#notice {
+    background-color: #909090;
+    /* border: 1px solid black; */
+    border-radius: var(--radius);
+    height: max-content;
+    width: max-content;
+    margin-top: 2%;
+
+    display: flex;
+    flex-direction: column;
+}
+#notice > * {
+    padding: 2% 5%;
+    box-sizing: border-box;
+}
+#div-btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#div-error {
+    color: rgb(73, 25, 35);
+}
