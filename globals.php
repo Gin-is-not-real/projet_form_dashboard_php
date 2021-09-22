@@ -1,8 +1,29 @@
 <?php
-$GLOBALS['servername'] = 'localhost';
-$GLOBALS['username'] = 'admin';
-$GLOBALS['password'] = 'admin';
-$GLOBALS['basename'] = 'bulbs_dashboard';
+$GLOBALS = !empty($GLOBALS['servername']) ? $GLOBALS : getConnectionInformations();
+
+function getConnectionInformations() {
+    if($_SERVER['HTTP_HOST'] == 'localhost') {
+        $conInfos = [
+            'servername' => 'localhost',
+            'basename' => 'bulbs_dashboard',
+            'username' => 'admin',
+            'password' => 'admin',
+        ];
+    }
+    else {
+        $conInfos = [
+            'servername' => 'promo-72.codeur.online',
+            'basename' => 'ninap_bases',
+            'username' => 'ninap',
+            'password' => 'pXvu3qcH1Ry83Q==',
+        ];
+    }
+    return $conInfos;
+}
+// $GLOBALS['servername'] = 'localhost';
+// $GLOBALS['username'] = 'admin';
+// $GLOBALS['password'] = 'admin';
+// $GLOBALS['basename'] = 'bulbs_dashboard';
 $GLOBALS['tablename'] = 'bulbs_dash';
 $GLOBALS['log-tablename'] = 'log_bulbs_dash';
 
